@@ -1,5 +1,9 @@
 # CLI-To-Do-List-in-Python-KAESZAR-cesar-soengas
 
+## Vista previa
+
+![Captura de la CLI de operaciones](public/CLI-operations.png)
+
 ## Descripción
 
 Herramienta ligera de terminal desarrollada en Python para que el equipo de operaciones de una empresa de logística pueda registrar y consultar tareas pendientes, y dar seguimiento a los pendientes entre turnos. La interfaz usa [Rich](https://github.com/Textualize/rich) para mostrar el menú, los mensajes y la lista de tareas.
@@ -45,6 +49,8 @@ Ejecuta el comando desde la raíz del proyecto. El archivo `todos.csv` se crea e
 ├── main.py          # Funciones de tareas y menú interactivo con Rich
 ├── requirements.txt # Dependencias de Python
 ├── todos.csv        # Datos locales; se crea al guardar tareas
+├── public/
+│   └── CLI-operations.png # Imagen de la interfaz de la CLI
 ├── README.md        # Descripción, uso y estructura del proyecto
 ├── CONTEXT.md       # Contexto del problema y objetivo
 ├── spec.md          # Alcance y criterios de aceptación
